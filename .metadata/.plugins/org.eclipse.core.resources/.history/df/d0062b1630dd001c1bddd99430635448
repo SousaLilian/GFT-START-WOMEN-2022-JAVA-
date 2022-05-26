@@ -1,0 +1,16 @@
+package gftWomen;
+
+import java.util.Date;
+
+public class Pessoa {
+	
+	private String nome;
+	private String genero;
+	private String corOlhos;
+	private String corCabelo;
+	private Date nascimento;
+	private String tipoSanguineo;
+	private String fatorRh;
+
+}
+

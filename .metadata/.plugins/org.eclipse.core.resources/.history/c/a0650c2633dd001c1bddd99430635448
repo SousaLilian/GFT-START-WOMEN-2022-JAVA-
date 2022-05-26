@@ -1,0 +1,59 @@
+package gftWomen;
+
+public class MelhorReceita {
+
+	private String nome;
+	private int qtd;
+	private int tempoPreparo;
+	private String modoPreparo;
+	
+	public MelhorReceita(String nome, int qtd, int tempoPreparo, String modoPreparo) {
+		super();
+		this.nome = nome;
+		this.qtd = qtd;
+		this.tempoPreparo = tempoPreparo;
+		this.modoPreparo = modoPreparo;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public int getQtd() {
+		return qtd;
+	}
+
+	public void setQtd(int qtd) {
+		this.qtd = qtd;
+	}
+
+	public int getTempoPreparo() {
+		return tempoPreparo;
+	}
+
+	public void setTempoPreparo(int tempoPreparo) {
+		this.tempoPreparo = tempoPreparo;
+	}
+
+	public String getModoPreparo() {
+		return modoPreparo;
+	}
+
+	public void setModoPreparo(String modoPreparo) {
+		this.modoPreparo = modoPreparo;
+	}
+
+	@Override
+	public String toString() {
+		return "MelhorReceita [nome=" + nome + ", qtd=" + qtd + ", tempoPreparo=" + tempoPreparo + ", modoPreparo="
+				+ modoPreparo + "]";
+	}
+	
+	
+	
+}
+

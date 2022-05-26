@@ -1,0 +1,30 @@
+package gftWomen;
+
+public class Receita {
+	
+	 private String nome;
+	    private List<Ingredientes> igredientes;
+
+
+	    public Receita(String nome, List<Ingredientes> igredientes) {
+	        this.nome = nome;
+	        this.igredientes = igredientes;
+	    }
+
+	    public String getNome() {
+	        return nome;
+	    }
+
+	    public void setNome(String nome) {
+	        this.nome = nome;
+	    }
+
+	    public List<Ingredientes> getIgredientes() {
+	        return igredientes;
+	    }
+
+	    public void setIgredientes(List<Ingredientes> igredientes) {
+	        this.igredientes = igredientes;
+	    }
+
+}

@@ -1,0 +1,12 @@
+package gftWomen;
+
+public class TesteReceita {
+
+	public static void main(String[] args) {
+		
+		MelhorReceita Receita = new MelhorReceita(bolo, 1, 1, facil);
+		
+
+	}
+
+}

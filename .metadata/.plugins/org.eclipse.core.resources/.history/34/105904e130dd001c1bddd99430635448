@@ -1,0 +1,109 @@
+package gftWomen;
+
+import java.util.Date;
+
+public class Pessoa {
+	
+	private String nome;
+	private String genero;
+	private String corOlhos;
+	private String corCabelo;
+	private Date nascimento;
+	private String tipoSanguineo;
+	private String fatorRh;
+	
+	
+	public Pessoa(String nome, String genero, String corOlhos, String corCabelo, Date nascimento, String tipoSanguineo,
+			String fatorRh) {
+		super();
+		this.nome = nome;
+		this.genero = genero;
+		this.corOlhos = corOlhos;
+		this.corCabelo = corCabelo;
+		this.nascimento = nascimento;
+		this.tipoSanguineo = tipoSanguineo;
+		this.fatorRh = fatorRh;
+	}
+
+
+	public String getNome() {
+		return nome;
+	}
+
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+
+	public String getGenero() {
+		return genero;
+	}
+
+
+	public void setGenero(String genero) {
+		this.genero = genero;
+	}
+
+
+	public String getCorOlhos() {
+		return corOlhos;
+	}
+
+
+	public void setCorOlhos(String corOlhos) {
+		this.corOlhos = corOlhos;
+	}
+
+
+	public String getCorCabelo() {
+		return corCabelo;
+	}
+
+
+	public void setCorCabelo(String corCabelo) {
+		this.corCabelo = corCabelo;
+	}
+
+
+	public Date getNascimento() {
+		return nascimento;
+	}
+
+
+	public void setNascimento(Date nascimento) {
+		this.nascimento = nascimento;
+	}
+
+
+	public String getTipoSanguineo() {
+		return tipoSanguineo;
+	}
+
+
+	public void setTipoSanguineo(String tipoSanguineo) {
+		this.tipoSanguineo = tipoSanguineo;
+	}
+
+
+	public String getFatorRh() {
+		return fatorRh;
+	}
+
+
+	public void setFatorRh(String fatorRh) {
+		this.fatorRh = fatorRh;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Pessoa [nome=" + nome + ", genero=" + genero + ", corOlhos=" + corOlhos + ", corCabelo=" + corCabelo
+				+ ", nascimento=" + nascimento + ", tipoSanguineo=" + tipoSanguineo + ", fatorRh=" + fatorRh + "]";
+	}
+	
+	
+	
+
+}
+
